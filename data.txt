@@ -1,0 +1,10 @@
+{'type': 'programming', 'setup': 'Why was the designer always cold?', 'punchline': 'Because they always used too much ice-olation.', 'id': 445}
+{'type': 'programming', 'setup': "Why dot net developers don't wear glasses?", 'punchline': 'Because they see sharp.', 'id': 376}
+{'type': 'programming', 'setup': "What's the object-oriented way to become wealthy?", 'punchline': 'Inheritance', 'id': 16}
+{'type': 'programming', 'setup': 'Why did the programmer quit his job?', 'punchline': "Because he didn't get arrays.", 'id': 18}
+{'type': 'programming', 'setup': 'Lady: How do I spread love in this cruel world?', 'punchline': 'Random Dude: [...💘]', 'id': 58}
+{'type': 'programming', 'setup': 'What do you call a computer mouse that swears a lot?', 'punchline': 'A cursor!', 'id': 435}
+{'type': 'programming', 'setup': 'Which song would an exception sing?', 'punchline': "Can't catch me - Avicii", 'id': 32}
+{'type': 'programming', 'setup': "Why don't programmers like nature?", 'punchline': "There's too many bugs.", 'id': 419}
+{'type': 'programming', 'setup': 'A DHCP packet walks into a bar and asks for a beer.', 'punchline': 'Bartender says, "here, but I’ll need that back in an hour!"', 'id': 368}
+{'type': 'programming', 'setup': 'What do you get when you cross a React developer with a mathematician?', 'punchline': 'A function component.', 'id': 412}

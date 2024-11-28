@@ -1,27 +1,18 @@
-from functions import *
-from app_setting import *
+from runner import Runner
+from shared.logger import Logger
 
-from clases.Calculator import Calculator
-import globalVariables
+
 def main():
-    work = 1
-
-    while work:
-        calc = Calculator()
-        work = calc.calculate()
-
-        if work == 0:
+    Logger.setup_logger()
+    run = Runner()
+    while True:
+        run.show_menu()
+        choice = input("Введіть номер лабораторної роботи для запуску (або 0 для виходу): ")
+        if choice == "0":
+            print("Вихід з програми.")
             break
-        a, b, op = userCalculationInput()
+        run.run_lab(choice)
 
-        error = errorChecker(b, op)
 
-        if error:
-            b, op = getValidInput(error, b, op)
-
-        result = round(calcOperations(a, b, op), globalVariables.numbersAfterDecimal)
-        printResult(result)
-
-        askToSave(a, b, op, result)
-
-        checkHistory()
+if __name__ == "__main__":
+    main()
